@@ -1,0 +1,133 @@
+body {
+	font-family: 'Snell Roundhand', cursive;
+	background: url(https://www.pixelstalk.net/wp-content/uploads/images1/Free-Firewatch-Images.jpg) no-repeat center center / cover;
+	padding: 100px 0;
+	line-height: 1.5;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+}
+h2 {
+	color: #0E114E;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10%;
+}
+li {
+	margin: 5px 0;
+	font-size: 16px;
+}
+ol {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10%;
+}
+p {
+	padding-left: 10px;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	content: "дзвонити";
+	background-color: #337AB7;
+	border-radius: 10px;
+}
+.container{
+	width: 800px;
+	min-height: 900px;
+	border: 3px solid #111755;
+	margin: 0 auto;
+	background: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616545544_1-p-tetradnii-list-v-kletku-fon-1.jpg);
+}
+.header {
+	display: flex;
+	height: 170px;
+}
+.title-block{
+	display: flex;
+	width: 70%;
+	height: 100%;
+    align-items: center;
+    justify-content: center;
+	margin-right: 10px;
+	background-color: #337AB7;
+	border: 2px solid #402266;
+}
+.content-wrapper{
+	display: flex;
+}
+.content{
+	align-items: center;
+    justify-content: center;
+	width: 70%;
+	padding: 15px;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 796px;
+	min-height: 60px;
+	background-color: #337AB7;
+	border: 2px solid #402266;
+	margin: 10px 0px 7px 0px;
+}
+.nav ul{
+	display: flex;
+	width: 600px;
+	background-color: #337AB7;
+	margin: 0px auto;
+	padding: 0px;
+}
+.nav li{
+	display: flex;
+	margin: 0px auto;
+	margin-left: 12%;
+}
+.nav li a{
+	padding: 8px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+	border: 2px solid #402266;
+	border-style: dotted;
+	transition: transform .5s ease;
+}
+.nav li a:hover {
+	transform: translateX(10px);
+	background-color: #402266;
+	border-radius: 0px;
+}
+.sidebar {
+	width: 70%;
+	padding: 10px;
+	background-color: #337AB7;
+	border: 2px solid #402266;
+}
+.skills li {
+	margin: 10px 0;
+	font-size: 18px;
+}
+.my-photo {
+	display: flex;
+	position: relative;
+	width: 195px;
+	height: 150px;
+	background: url('https://i.ibb.co/gjW26GB/image.jpg') no-repeat center center;
+	background-color: white;
+	border-radius: 10px;
+	border: 10px solid #402266;
+	margin-top: 3px;
+}
