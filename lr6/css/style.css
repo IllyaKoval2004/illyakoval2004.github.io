@@ -1,0 +1,239 @@
+body {
+	font-family: 'Snell Roundhand', cursive;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGpl9wdpYWCiBGMrvvM3r8ilLDKvMjFJIRA&usqp=CAU);
+}
+a {
+	text-decoration: none;
+}
+.container {
+	height: 600px;
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 5%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+}
+
+.title-block{
+	display: flex;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	justify-content: center;
+	background-color: white;
+	padding: 10px;
+}
+
+.content-wrapper {
+	display: flex;
+	position: relative;
+	height: 420px;
+	width: 840px;
+	margin: 0px auto;
+	margin-top: 50px;
+	background-color: white;
+	border: 2px solid #797980;
+	border-left: 0px;
+}
+
+.content {
+	position: relative;
+	width: 208px;
+	height: 100%;
+	border-left: 2px solid #797980;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sticker {
+	display: flex;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	right: 10px;
+	top: -32px;
+	border: 2px solid white;
+	border-radius: 50%;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	align-items: center;
+  	justify-content: center;
+}
+
+.sticker_new {
+	background-color: green;
+}
+
+.sticker_hit {
+	background-color: blue;
+}
+
+.arrow {
+	display: flex;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 72px;
+	border-radius: 50%;
+	border: 2px solid #797980;
+	background-color: white;
+	font-size: 20px;
+	font-family: 'Arial', sans-serif;
+	color: #797980;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.left {
+	left: -17px;
+}
+
+.right {
+	right: -17px;
+}	
+
+.arrow a {
+	color: black;
+}
+
+.arrow:hover {
+	background-color: #797980;
+	color: white;
+}
+
+.category {
+	display: flex;
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	font-size: 20px;
+	align-items: center;
+}
+
+.category a {
+	color: black;
+}
+
+.category a:hover {
+	color: #381185;
+	font-size: 25px;
+}
+
+.category-text {
+	display: flex;
+	width: 180px;
+	height: 80px;
+	margin: 0px auto;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid #797980;
+}
+
+.img {
+	width: 180px;
+	height: 160px;
+	margin: 0px auto;
+}
+
+.one {
+	background-image: url(../image/mersedes.jpg);
+}
+
+.two {
+	background-image: url(../image/bmw.jpg);
+}
+
+.tree {
+	background-image: url(../image/audi.jpg);
+}
+
+.four {
+	background-image: url(../image/camaro.jpg);
+}
+
+.name {
+	width: 100%;
+	height: 30px;
+	margin: 0px auto;
+	padding: 10px 0px 10px 0px;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	color: #1D84E1;
+}
+
+.name a {
+	color: #1D84E1;
+}
+
+.name a:hover{
+	color: #381185;
+	font-size: 18px;
+}
+
+.price {
+	display: flex;
+	width: 180px;
+	height: 20px;
+	margin: 0px auto;
+	font-size: 14px;
+}
+
+.sale {
+	text-decoration: line-through;
+	justify-content: right;
+}
+
+.standart {
+	justify-content: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.wrap-buy {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	margin: 10px 1px 1px 20px;
+}
+
+.buy {
+	position: absolute;
+	display: flex;
+	width: 120px;
+	height: 40px;
+	left: 26px;
+	top: 20px;
+	color: black;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.none {
+	background-color: #E85151;
+	cursor: default;
+}
+
+.now {
+	background-color: #66E74C;
+}
+
+.now:hover {
+	color: white;
+}
