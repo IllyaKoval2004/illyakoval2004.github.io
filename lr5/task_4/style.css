@@ -1,0 +1,138 @@
+body {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 100px;
+    text-align: center;
+}
+
+.calculator {
+    display: inline-block;
+    width: 410px;
+    height: 634px;
+    border: 3px solid #609d9e;
+    border-radius: 10px;
+}
+
+.first-calculator {
+    float: left;
+}
+
+.second-calculator {
+    float: right;
+    position: relative;
+}
+
+.title {
+    width: auto;
+    font-size: 22px;
+    color: #fff;
+    background-color: #609d9e;
+    margin-top: 8px;
+    padding: 14px;
+    text-align: right;
+}
+
+input[type="text"]{
+    display: block;
+    width: 380px;
+    height: 50px;
+    font-family: inherit;
+    font-size: 34px;
+    color: #609d9e;
+    background-color: #fff;
+    border: 4px solid #609d9e;
+    border-radius: 10px;
+    margin: 8px auto;
+    text-align: right;
+}
+
+input[type="text"]:focus {
+  border-color: #609d9e;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(158, 158, 158, 0.25);
+}
+
+.decoration-wrap {
+    width: 100%;
+    height: 90px;
+}
+
+.decoration {
+    width: 135px;
+    height: 50px;
+    background-color: #609d9e;
+}
+
+.first-decoration {
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.second-decoration {
+    position: absolute;
+    right: 15px;
+    top: 152px;
+}
+
+.buttons {
+    width: 70px;
+    height: 70px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #609d9e;
+    background-color: #fff;
+    border: 3px solid #609d9e;
+    border-radius: 10px;
+}
+
+.first-btn {
+    float: left;
+    margin: 15px;
+    margin-left: 17px;
+}
+
+.second-btn {
+    display: inline-block;
+}
+
+.row {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+}
+
+.row-one {
+    left: 0px;
+    top: 195px;
+}
+
+.row-two {
+    left: 0px;
+    top: 295px;
+}
+
+.row-tree {
+    left: 0px;
+    top: 395px;
+}
+
+.row-four {
+    left: 0px;
+    top: 495px;
+}
+
+.buttons:hover {
+    background-color: #609d9e;
+    color: #fff;
+}
+
+.buttons:active {
+    transform: translateY(2px);
+}
