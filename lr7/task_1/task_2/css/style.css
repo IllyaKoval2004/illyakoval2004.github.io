@@ -1,0 +1,268 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+
+body {
+	width: 1300px;
+	height: 1850px;
+	margin: 0 auto;
+	background-color: #373737;
+	background-image: url(../img/bg.png);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+/* Header */
+
+header {
+	width: 100%;
+	height: 430px;
+	background-image: url(../img/bg-01.jpg);
+	background-repeat: no-repeat;
+	background-size: 1300px;
+	background-position: -0px -200px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+	margin-left: 170px;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 17px;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	background: #ed1a35;
+}
+
+h1 {
+	font-family: 'Metal Mania', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 100px;
+}
+
+header .button {
+	display: flex;
+	width: 290px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, rgba(225, 7, 15,1) 0%, rgba(235, 22, 46) 35%, rgba(250, 46, 96,1) 100%);
+}
+
+/* Tour */
+h2 {
+	color: #fff;
+	font-size: 24px;
+	padding: 38px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.tour-card {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 220px;
+	color: #fff;
+	margin: 10px;
+	text-align: left;
+}
+
+.tour-card:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.madrid {
+	background-image: url(../img/tour/madrid.jpg);
+}
+
+.turin {
+	background-image: url(../img/tour/turin.jpg);
+}
+
+.hamburg {
+	background-image: url(../img/tour/hamburg.jpg);
+}
+
+.krakow {
+	background-image: url(../img/tour/krakow.jpg);
+}
+
+.tour-town {
+	position: absolute;
+	top: 30px;
+	left: 5px;
+	text-transform: uppercase;
+}
+
+.tour-place {
+	position: absolute;
+	top: 55px;
+	left: 5px;
+}
+
+.tour-date {
+	position: absolute;
+	top: 75px;
+	left: 5px;
+	font-family: 'Open Sans', cursive;
+	font-style: italic;
+}
+
+.tour-card a {
+	position: absolute;
+	top: 120px;
+	left: 35px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 25px 10px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, rgba(225, 7, 15,1) 0%, rgba(235, 22, 46) 35%, rgba(250, 46, 96,1) 100%);
+}
+
+/* Gallery */
+
+figure {
+	display: inline-block;
+	width: 275px;
+	height: 275px;
+	margin: 10px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Subscribe */
+
+.pitch {
+	position: relative;
+	width: 100%;
+	height: 290px;
+	background-image: url(../img/bg-02.jpg);
+	background-size: 1300px;
+	background-position: -0px -200px;
+	margin-top: 30px;
+}
+
+.pitch:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.pitch p {
+	position: absolute;
+	top: 140px;
+    left: 455px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.pitch h2 {
+	position: absolute;
+	top: 35px;
+    left: 555px;
+}
+
+form {
+	position: absolute;
+	top: 180px;
+	left: 500px;
+	font-size: 14px;
+}
+
+input {
+	padding: 10px;
+	border: 0;
+	font-size: 14px;
+}
+
+form button {
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, rgba(225, 7, 15,1) 0%, rgba(235, 22, 46) 35%, rgba(250, 46, 96,1) 100%);
+	border: 0;
+	font-style: normal;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	height: 100px;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+
+footer p{
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+}
