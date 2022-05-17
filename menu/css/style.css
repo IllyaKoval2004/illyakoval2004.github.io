@@ -67,7 +67,7 @@ a:hover{
 }
 .five {
   background: #f7f7f7;
-  padding: 50px 20px 50px 170px;
+  padding: 50px 20px 50px 100px;
   text-align: center;
 } 
 .five h1 {
@@ -83,18 +83,7 @@ a:hover{
   padding: 8px 10px 8px 2px;
   border-top: 4px solid;
 }
-.five h1:before {
-  content: "menu";
-  font-weight: 600;
-  font-variant: small-caps;
-  font-style: oblique;
-  position: absolute;
-  top: -25px;
-  left: -138px;
-  font-size: 1.5em;
-  transform: rotate(-30deg);
-  font-family: Bradley Hand, cursive;
-}
+
 .five h1:after {
   content: ""; 
   position: absolute;
