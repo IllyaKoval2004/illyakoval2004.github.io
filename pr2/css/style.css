@@ -1,0 +1,138 @@
+body {
+	background-color: #332a2a;
+}
+
+.content-wrapper {
+	position: relative;
+	height: 390px;
+	width: 940px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+a {
+	position: absolute;
+	padding: 20px 40px 20px 40px;
+	font-size: 14px;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	right: 0px;
+	bottom: -66px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Rubik', sans-serif;
+}
+
+.left-part {
+	float: left;
+	height: 100%;
+	width: 340px;
+}
+
+.right-part {
+	float: right;
+	height: 100%;
+	width: 600px;
+}
+
+.wrap-image {
+	display: flex;
+    width: 340px;
+    height: 390px;
+}
+
+.image {
+	height: 100%;
+	width: 100%;
+    background-image: url(../img/burger.jpg);
+    background-repeat: no-repeat;
+    background-position: -32px -102px;
+    background-size: cover;
+    background-size: 400px;
+}
+
+.title-wrap {
+	position: absolute;
+	height: 210px;
+	width: 340px;
+	background-color: #000;
+	left: -10px;
+	bottom: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+	font-family: 'PT Serif', sans-serif;
+}
+
+.price {
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: 'Rubik', sans-serif;
+}
+
+.description-price {
+	color: #f7c73a;
+	padding: 5px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.slogan {
+	display: block;
+	height: auto;
+	text-align: center;
+	width: 100%;
+	margin: 37px auto;
+	font-size: 16px;
+	font-family: 'PT Serif', sans-serif;
+}
+
+.menu-wrapper {
+	display: inline-block;
+	position: relative;
+	height: 65px;
+	width: 200px;
+	border-bottom: 2px solid rgb(213, 213, 213, 0.7);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+.menu-wrapper:before {
+	content: '';
+	position: absolute;
+	bottom: -6px; 
+	left: 94px;
+	width: 12px;
+	height: 12px;
+	transform: rotate(45deg);
+	background-color: rgb(213, 213, 213, 0.9);
+}
+
+.container {
+	display: block;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+.dish {
+	padding: 5px;
+	font-family: 'PT Serif', sans-serif;
+}
+
+.dish-price {
+	color: #9a9a9a; 
+	font-family: 'Rubik', sans-serif;
+}
